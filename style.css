@@ -1,0 +1,95 @@
+#spielfeld {
+	position: relative;	
+	width: 800px;
+    height: 660px;
+    margin: 10px 0 0 15%;
+    background-color: #DDEEFF;
+    border:#7788AA 6px solid;
+    color: #008CBA;
+}
+
+#zuruck{
+	position : absolute;
+	margin: -650px 0 0 80px;
+ text-decoration: none; background-color: white; color: red;font-style: italic; text-shadow: 3px 3px 6px black;}
+
+canvas {
+    width: 480px;
+    height: 640px;
+    background-color: #BECFEA;
+    border:#7788AA 4px solid;
+    margin: 6px 0 0 50px;
+    font-size: 25px;
+}
+
+#tetroBox {
+	position: absolute;
+	margin: -648px 0 0 560px;
+	width: 210px;
+    height: 150px;
+    border:#7788AA 4px solid;
+}
+
+#highScore {
+	margin: -350px 0 0 580px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#highScorePunkte, #levelPunkte, #scorePunkte {
+    display: inline-block;
+}
+
+#level {
+	margin: 50px 0 0 580px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#score {
+	margin: 50px 0 0 580px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#playButton{
+	margin: 122px 0 0 570px;
+	width: 80px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #33e0ff;
+    color: white;
+    border-radius: 50%;
+    border-color: #7788AA;
+}
+
+#playButton span:after, #pauseButton span:after {
+  content: '\00bb';
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#playButton:hover span:after, #pauseButton:hover span:after {
+  opacity: 1;
+}
+
+#playButton:hover, #pauseButton:hover{
+	background-color: black;
+	color: cyan;
+}
+
+#pauseButton{
+	margin: -68px 0 0 700px;
+	width: 80px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #33e0ff;
+    color: white;
+    border-radius: 50%;
+    border-color: #7788AA;
+}

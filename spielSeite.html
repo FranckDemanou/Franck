@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title> Tetris Game</title> 
+	<meta charset='UTF-8'>
+	<link href="../CSS/style.css" rel="stylesheet" />
+</head>
+
+<body>
+<audio  id="myAudio"  loop>
+  <source src="../Sound/tetris-gameboy.mp3" type="audio/ogg">
+  <embed src="../Sound/tetris-gameboy.mp3" autostart="false" loop="true" hidden="true"> 
+</audio>
+
+	<div id="spielfeld">
+		<canvas id="tetris" width="480" height="640"></canvas>
+		<div id="tetroBox"></div>
+		<div id="highScore">High - Score : <div id="highScorePunkte">0</div></div>
+		<div id="level">Level : <div id="levelPunkte">0</div></div>
+		<div id="score">Score : <div id="scorePunkte">0</div></div>
+		<button id="playButton" onclick="playButtonClicked(); playMusic();"><span>play</span></button>
+		<button id="pauseButton" onclick="pauseGame();"><span>pause</span></button>
+	</div>
+	
+	<div id="zuruck">
+		<a href="../html/Startseite.html"> STARTSEITE </a>
+	</div>
+	
+	<script src="../js/tetrominoes.js"></script>
+	<script src="../js/tetris.js"></script>
+	
+</body>
+</html>

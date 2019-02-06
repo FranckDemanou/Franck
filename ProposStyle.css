@@ -1,0 +1,84 @@
+body {
+	background-color:  white;
+	margin: 0px;
+	padding: 0px;
+} 
+
+
+h2 {
+	color: black;
+	font-size: 25px;
+	text-shadow: 2px 2px 3px yellow;
+}
+
+.zeige {     
+	float: right;
+	width: 300px;
+    height: 111px;
+}
+
+#bien {
+    color: black;
+    font-size: 20px;
+    font-style: italic; 
+    text-align: justify;
+    text-shadow: 2px 2px 3px yellow;			 
+}
+
+
+h3 {
+  color: black;
+  font-size: 25px;
+  text-shadow: 2px 2px 3px red;
+}
+
+#bio {
+    color: black;
+    font-size: 20px;
+    font-style: italic; 
+    text-shadow: 2px 2px 3px red;			 
+}
+
+.zeig {     
+     float: right;
+     width: 300px;
+     height: 111px;
+     text-align: justify;
+	}
+
+
+h4 {
+  color: black;
+  font-size: 25px;
+  text-shadow: 2px 2px 3px blue;
+}
+
+
+#bioe {
+    color: black;
+    font-size: 20px;
+    font-style: italic; 
+    text-shadow: 2px 2px 3px blue;			 
+}
+
+
+footer {
+       color: black;
+       font-size: 15px;
+       font-style: italic;
+       text-align: justify;
+       text-shadow: 3px 3px 6px black;
+}
+
+
+#zeigee {
+	bottom: 0;
+	text-align: center;
+    width: 1240px;
+    height: 30px;
+    background-color: white;
+	color: red;
+   	text-decoration: none;
+   	font-style: italic;
+   	text-shadow: 3px 3px 6px black;
+}
